@@ -18,7 +18,12 @@
           <div id="zone-credit" class="zone zone-credit clearfix container_24">
             <aside class="grid_16 region region-credit-first" id="region-credit-first">
               <div class="region-inner region-credit-first-inner">
-                <p>&copy;2015 <a href="http://www.gbif.org">Global Biodiversity Information Facility</a>.</p>
+<!-- CUSTOM CONTENT -->
+                <a href="http://www.eoesummit.org/"><img src="${baseURL}/images/custom/eoe.jpg" alt="Eye On Earth" /></a>
+                <a href="http://www.ead.ae/"><img src="${baseURL}/images/custom/ea.jpg" alt="Environment Agency - Abu Dhabi" /></a>
+                <a href="https://agedi.org/"><img src="${baseURL}/images/custom/agedi.jpg" alt="Abu Dhabi Global Environmental Data Initiative" /></a>
+                <a href="http://www.gbif.org/"><img src="${baseURL}/images/custom/gbif.jpg" alt="Global Biodiversity Information Facility" /></a>
+<!-- END CUSTOM CONTENT -->
               </div>
             </aside>
           </div>

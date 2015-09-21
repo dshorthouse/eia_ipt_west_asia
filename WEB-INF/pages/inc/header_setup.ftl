@@ -7,8 +7,10 @@
 	  <link rel="stylesheet" type="text/css" media="all" href="${baseURL}/styles/reset.css" />
 		<link rel="stylesheet" type="text/css" media="all" href="${baseURL}/styles/text.css" />
 		<link rel="stylesheet" type="text/css" media="all" href="${baseURL}/styles/960_24_col.css" />
+<!-- CUSTOM CONTENT -->
  		<link rel="stylesheet" type="text/css" href="${baseURL}/styles/main.css"/>
- 		<link rel="shortcut icon" href="${baseURL}/images/icons/favicon-16x16.png" type="image/x-icon" />
+<!-- END CUSTOM CONTENT -->
+ 		<link rel="shortcut icon" href="${baseURL}/images/custom/favicon.ico" type="image/x-icon" />
     <!-- for css overrides needed for customizations -->
     <link rel="stylesheet" type="text/css" href="${baseURL}/styles/custom.css" />
     <!-- for support of old browsers, like IE8. See http://modernizr.com/docs/#html5inie -->
@@ -44,7 +46,9 @@
                   </a>
                 </div>
                 <hgroup class="site-name-slogan">
-                  <h1 class="site-name"><a href="${baseURL}" rel="home" title="Home" class="active">Integrated Publishing Toolkit</a><span class="logoSuperscript">(IPT)</span></h1>
+<!-- CUSTOM CONTENT -->
+                  <h1 class="site-name"><a href="${baseURL}" rel="home" title="Home" class="active">West Asia EIA Data Repository</a><span class="logoSuperscript">(IPT)</span></h1>
+<!-- END CUSTOM CONTENT -->
                   <h6 class="site-slogan">free and open access to biodiversity data</h6>
                 </hgroup>
                 <div id="region-user-second" class="region-inner region-user-second-inner">

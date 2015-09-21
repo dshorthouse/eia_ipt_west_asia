@@ -18,8 +18,10 @@
                   </a>
                 </div>
                 <hgroup class="site-name-slogan">
-                  <h1 class="site-name"><a href="${baseURL}" rel="home" title="Home" class="active">Integrated Publishing Toolkit</a><span class="logoSuperscript">(IPT)</span></h1>
+                  <h1 class="site-name"><a href="${baseURL}" rel="home" title="Home" class="active">West Asia EIA Data Repository</a><span class="logoSuperscript">(IPT)</span></h1>
+                  <!--
                   <h6 class="site-slogan">free and open access to biodiversity data</h6>
+                  -->
                   [#if !cfg.devMode() && cfg.getRegistryType()=='PRODUCTION']
                   [#else]
                     <img class="testmode" src="${baseURL}/styles/testmode.png" />
@@ -59,20 +61,33 @@
       		  <div class="grid_13 region region-menu" id="region-menu">
               <nav>
       	        <ul>
+<!-- COMMENT OUT
       		    	  <li[#if currentMenu=='home'] class="current"[/#if]><a href="${baseURL}/">[@s.text name="menu.home"/]</a></li>
+-->
       		    	  [#if managerRights]
       		    	    <li[#if currentMenu=='manage'] class="current"[/#if]><a href="${baseURL}/manage/">[@s.text name="menu.manage"/]</a></li>
       		    	  [/#if]
       		    	  [#if adminRights]
       		    	    <li[#if currentMenu=='admin'] class="current"[/#if]><a href="${baseURL}/admin/">[@s.text name="menu.admin"/]</a></li>
       		    	  [/#if]
+<!-- COMMENT OUT
       		    	  <li[#if currentMenu=='about'] class="current"[/#if]><a href="${baseURL}/about.do">[@s.text name="menu.about"/]</a></li>
+-->
       	        </ul>
       	      </nav>
       	    </div>
       	  </div>
       		<div id="search"></div>
         </div>
+
+<!-- CUSTOM CONTENT -->
+        <div id="inner-banner">
+          <div class="main_wrap ban_in">
+            <p>The Eye on Biodiversity Special Initiative focuses on the incentives required to further motivate people, government, agencies and organizations to share their information and data on issues related to biodiversity, particularly with regard to Principle 10 of the 1992 Rio Declaration.</p>
+          </div>
+        </div>
+<!-- END CUSTOM CONTENT -->
+
 		  </header>
 		  <section id="section-content" class="section section-content">
         <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">

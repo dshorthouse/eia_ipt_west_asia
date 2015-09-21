@@ -5,27 +5,181 @@
  they can create their own modernizr.js with the desired supported elements. They only have to replace the 'default'
  file with their own.
 */
-a {
-  color: #008959;
-  font-weight: normal;
+a, #region-user-second a, #zone-footer ul li a {
+  color:#0196ff;
+  font-weight:500;
+  text-decoration:none;
 }
+
+a:hover, #region-user-second a:hover, #zone-footer ul li a:hover{
+  color:#41a62a;
+  font-weight:500;
+  text-decoration:none;
+  opacity: 1;
+}
+
+#page{
+  margin-top:0px;
+}
+.site-name{
+  margin-top:0;
+  margin-bottom:0;
+  margin-left:20px;
+  font-size:3em;
+}
+.site-name-slogan{
+  margin-top:4em;
+}
+.site-name a{
+  color:#062A4E;
+}
+.logoSuperscript{display:none;}
 .green{
   color: #008959;
 }
-#region-menu nav ul li.current {
-  background-color: #008959;
+
+body{
+  background-color:#FFF;
 }
+
+.container_24{
+  width:100%;
+}
+
+.container_24 .grid_24{
+  width:98%;
+  padding-left:10px;
+  padding-right:10px;
+  min-width:1200px;
+}
+
+.container_24 .grid_16 {
+  width:98%;
+  padding:10px;
+  min-width:1200px;
+  text-align:center;
+}
+
+.branding-data{
+  position:relative;
+}
+header{
+  height:auto;
+}
+#inner-banner{
+  background-image:url(../images/custom/08-1.jpg);
+  height:175px;
+  position:relative;
+  margin-top:0;
+}
+.ban_in p{
+  background:rgba(0, 0, 0, 0.498039);
+    bottom:0;
+    color:#FFFFFF;
+    font-size:16px;
+    left:20px;
+    margin-bottom:0;
+    padding:1% 2%;
+    position:absolute;
+    width:88%;
+    z-index:999;
+}
+#section-content{
+  padding-top:0px;
+  margin-top:1em;
+}
+#zone-user-wrapper{
+  height:6em;
+}
+#zone-user{
+  height:auto;
+  background-color:transparent;
+}
+.logo-img{display:none;}
+#zone-branding-wrapper{
+  width:100%;
+  margin:0px auto;
+  position:relative;
+}
+#zone-branding{
+  float:right;
+  width:35%;
+}
+#zone-content{
+  margin-top:0px;
+}
+#region-content{
+  padding-top:10px;
+}
+#region-menu{
+  background-color:#fff;
+  height:auto;
+  margin-top:0.25em;
+  margin-bottom:0.25em;
+  width:100%;
+  min-width:400px;
+}
+#region-menu nav ul li{
+  text-transform:uppercase;
+  color:#33617D;
+  background-color:#fff;
+  border:none;
+  border-radius:0px;
+  min-width:150px;
+  width:auto;
+  padding:0 10px;
+  border:1px solid #fff;
+  border-radius:none;
+  border-bottom:0px;
+}
+#region-menu nav ul li:hover {
+  opacity: 1;
+}
+#region-menu nav ul li.current {
+  background-color: #fff;
+  border:none;
+  border-radius:none;
+}
+#region-menu nav ul li a{
+  color:#33617D;
+}
+#region-menu nav ul li.current a, #region-menu nav ul li a:hover{
+  color:#41a62a;
+}
+
 #region-content h1 {
-  color: #008959;
+  color: #062A4E;
+}
+#language-menu{
+  box-shadow:none;
+  margin-bottom:0px;
+  padding-bottom:0px;
+  position:absolute;
+  top:0px;
+  right:0px;
+  z-index:1000;
 }
 div.groupmenu ul li a {
   color: #008959;
 }
+
 table#rtable thead{
-  background-color: #dbf0e8;
+  background-color: #fff;
+}
+table.display thead th{
+  border-top:1px solid #C2C2C2;
+  border-bottom:1px solid #C2C2C2;
 }
 .dataTables_filter {
-  background-color: #dbf0e8;
+  background-color: #fff;
+}
+.dataTables_filter input[type="text"]{
+  background:#F5F5F5;
+  border:1px solid #C2C2C2;
+  padding:5px;
+}
+tr.odd{
+  background-color:#F5F5F5;
 }
 tr.even td.sorting_1 {
   background-color: #E6F5EB;
@@ -33,4 +187,28 @@ tr.even td.sorting_1 {
 .actionMessage{
   color: #008959;
   background-color: #dbf0e8;
+}
+.sorting_asc, .sorting_desc{
+  box-shadow:none;
+}
+
+#section-footer{
+  position:relative;
+  height:auto;
+  border-top-color:#C2C2C2;
+  border-top-style:solid;
+  border-top-width:1px;
+}
+
+#zone-footer{
+  background-color:#FFF;
+}
+#zone-credit{
+  background-color:#FFF;
+}
+#zone-credit-wrapper{
+  height:auto;
+}
+#zone-credit img{
+  margin:0 10px 0;
 }
